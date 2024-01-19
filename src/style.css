@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+* {
+  color: white;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700;
+}
+
+body {
+    background-color: #ffb3e1;
+}
+
+.main-box {
+  position: fixed;
+  top: 20rem;
+  left: 24rem;
+
+  transform:rotate(50%,50%);
+}
+
+.box {
+  width: 60rem;
+}
+.header {
+  background: linear-gradient(91deg, rgba(48, 158, 221, 0.8) 4.62%, rgba(19, 100, 177, 0.8) 100%);
+  padding: 15px;
+  border-radius: 10px 10px 0px 0px;
+}
+.body {
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 15px;
+  border-radius: 0px 0px 10px 10px;
+}
+.body-full {
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 15px;
+  border-radius: 10px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.item-list{
+  overflow: auto;
+}
+
+.item{
+  margin-bottom: 4px;
+  padding: 5px;
+}
+
+table{
+  border-radius: 10px;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #b3e4ff;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
